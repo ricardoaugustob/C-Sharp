@@ -12,13 +12,14 @@ namespace ConsoleApp1
         {
             Console.Write("Digite o seu nome: ");
             String nome = Console.ReadLine();
-            Console.WriteLine("Olá "+ nome, " seja bem vindo" );
+            Console.WriteLine("Olá " + nome, " seja bem vindo");
             Console.Write("Digite sua idade: ");
             int idade = int.Parse(Console.ReadLine());
             adulto(idade);
-
-
             Console.ReadLine();
+
+
+
         }
 
         static void adulto(int idade)
